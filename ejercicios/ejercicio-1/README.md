@@ -42,13 +42,9 @@ Debes crear una base de datos llamada **`turismo_hotel`** que contenga **exactam
 
 * Debes entregar **únicamente las colecciones creadas** exportadas en **formato ZIP**.
 
-***
-
 ## **BLOQUE 2 – TEST DE CONSULTAS (50 %)**
 
 Selecciona **la consulta MongoDB correcta** en cada caso.
-
-***
 
 ### **Pregunta 1**
 
@@ -72,10 +68,10 @@ c)
 db.habitaciones.find({ disponible: "true" })
 ```
 
-d)
+d) 
 
 ```js
-db.habitaciones.find({ disponible: true })
+db.habitaciones.find({ disponible: true }) ✅
 ```
 
 ***
@@ -87,7 +83,7 @@ Mostrar solo el **número y el precio por noche** de todas las habitaciones.
 a)
 
 ```js
-db.habitaciones.find({}, { numero: 1, precioNoche: 1, _id: 0 })
+db.habitaciones.find({}, { numero: 1, precioNoche: 1, _id: 0 }) ✅
 ```
 
 b)
@@ -123,13 +119,13 @@ db.reservas.find({ noches > 3 })
 b)
 
 ```js
-db.reserva.find({ noches: { $gt: 3 } })
+db.reserva.find({ noches: { $gt = 3 } })
 ```
 
 c)
 
 ```js
-db.reservas.find({ noches: { $gt: 3 } })
+db.reservas.find({ noches: { $gt: 3 } }) ✅
 ```
 
 d)
@@ -165,5 +161,5 @@ db.reservas.find().sort(noches: -1)
 d)
 
 ```js
-db.reservas.find().sort({ noches: -1 })
+db.reservas.find().sort({ noches: -1 }) ✅
 ```

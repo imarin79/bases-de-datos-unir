@@ -45,4 +45,6 @@ Para cada ejercicio se recomienda seguir este flujo:
 
 ### Curso 2025 - 2026
 
-* [Ejercicio 1 - Reservas de hotel](ejercicio-1.md)
+* [✅- Ejercicio 1 - Reservas de hotel](ejercicio-1/)
+* [🤔- Ejercicio 2 - Gestión de medicamentos](ejercicio-2/)
+* [🤔- Ejercicio 3 - Gestión de pagos](ejercicio-3/)
