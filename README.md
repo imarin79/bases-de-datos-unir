@@ -1,10 +1,20 @@
 # Repositorio de las Asignaturas "Bases de Datos Avanzadas y Distribuidas" y "Programación de Bases de Datos"
 
-## Aclaración
+## Descripción
 
-El contenido de este repositorio se proporciona como material complementario para los estudiantes de la asignaturas "Bases de Datos Avanzadas y Distribuidas" y "Programación de Bases de Datos" de los grados en [Ciencia de Datos(https://www.unir.net/ingenieria/grado-ciencia-datos/)] y de [Matemática Computacional](https://www.unir.net/ingenieria/grado-matematicas-computacionales/) de UNIR.
+Este repositorio reúne material complementario para las asignaturas "Bases de Datos Avanzadas y Distribuidas" y "Programación de Bases de Datos" de los grados en [Ciencia de Datos](https://www.unir.net/ingenieria/grado-ciencia-datos/) y [Matemática Computacional](https://www.unir.net/ingenieria/grado-matematicas-computacionales/) de UNIR.
 
-Este material está disponible libremente, bajo la responsabilidad exclusiva de su [autor(https://www.linkedin.com/in/jarturomora/)], a través de la licencia Creative Commons 0 (CC0 1.0 Universal). Cualquier persona interesada puede hacer uso de estos recursos, siempre respetando los derechos de autor de los materiales oficiales proporcionados a los estudiantes por parte de UNIR. Cabe destacar que el uso de este material no influye ni afecta la calificación de los estudiantes en la asignatura.
+El contenido está disponible libremente, bajo la responsabilidad exclusiva de su [autor](https://www.linkedin.com/in/jarturomora/), mediante la licencia Creative Commons 0 (CC0 1.0 Universal). Cualquier persona interesada puede utilizar estos recursos, siempre respetando los derechos de autor de los materiales oficiales proporcionados a los estudiantes por UNIR. El uso de este material no influye ni afecta a la calificación de los estudiantes en la asignatura.
+
+## Estructura del repositorio
+
+El contenido principal se organiza en tres bloques:
+
+* [Temas](temas/): material teórico y demostraciones organizadas por unidades didácticas.
+
+* [Docker](docker/README.md): composiciones y recursos para levantar entornos de práctica y demostración.
+
+* [Ejercicios](ejercicios/README.md): ejercicios de tipo examen para practicar de forma autónoma.
 
 ## Temas
 
@@ -16,7 +26,7 @@ Este material está disponible libremente, bajo la responsabilidad exclusiva de 
 
 * [Tema 4: Concepto NoSQL](temas/tema-4/README.md)
 
-* [ema 5: Introducción a MongoDB](temas/tema-5/README.md)
+* [Tema 5: Introducción a MongoDB](temas/tema-5/README.md)
 
 * [Tema 6: Operaciones CRUD y agregación en MongoDB](temas/tema-6/README.md)
 
@@ -30,4 +40,8 @@ Este material está disponible libremente, bajo la responsabilidad exclusiva de 
 
 ## Contenedores Docker para la asignatura
 
-Para facilitar las demostraciones de cada tema, se facilitan contenedores Docker, los cuales están disponibles en el directorio [`docker`](docker/) de este repositorio.
+Para facilitar las demostraciones y prácticas de cada tema, el repositorio incluye contenedores Docker en el directorio [docker](docker/README.md). Cada subdirectorio contiene su propio `README.md` con instrucciones específicas.
+
+## Ejercicios tipo examen
+
+En [ejercicios](ejercicios/README.md) encontrarás propuestas similares a las del examen, orientadas a practicar la creación de bases de datos, la inserción de datos y la resolución de consultas.

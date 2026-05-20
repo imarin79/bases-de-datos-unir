@@ -2,4 +2,6 @@
 
 ## Contenido
 
-* [Demostración de la clase 4.3: Práctica comparativa SQL vs NoSQ](clase-4-3/README.md)
+* [Demostración Práctica comparativa SQL vs NoSQL](clase-4-3/README.md)
+
+* [Ejercicio práctico con MongoDB](../../docker/tema-4/docker-ejercicio/README.md)
